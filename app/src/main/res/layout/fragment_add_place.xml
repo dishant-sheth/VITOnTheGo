@@ -1,0 +1,107 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Place to Visit"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            android:hint="Location name"
+            android:textSize="15sp"
+            android:textColorHint="#222"
+            android:id="@+id/title"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="15dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            android:nestedScrollingEnabled="true"
+            android:hint="Location area"
+            android:textSize="15sp"
+            android:textColorHint="#222"
+            android:id="@+id/area"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+
+            android:hint="Details"
+            android:background="@drawable/edit_text_box"
+            android:inputType="textMultiLine"
+            android:textSize="15sp"
+            android:textColorHint="#222"
+            android:id="@+id/content"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            android:nestedScrollingEnabled="true"
+            android:hint="Rating"
+            android:textSize="15sp"
+            android:textColorHint="#222"
+            android:id="@+id/rating"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#222"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="15dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="center"
+            android:id="@+id/submit_place"/>
+
+    </LinearLayout>
+</ScrollView>

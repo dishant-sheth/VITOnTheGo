@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.dishant.vitonthego.NavigationDrawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="@dimen/logo_w_h"
+            android:layout_height="@dimen/logo_w_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/spiral"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIT OnTheGo"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:id="@+id/profile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Places to Visit"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:id="@+id/places"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complaints"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:id="@+id/complaint"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:id="@+id/chat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:id="@+id/logout"/>
+
+
+</LinearLayout>
